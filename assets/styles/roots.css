@@ -1,0 +1,31 @@
+:root {
+    --bg: #ffffff;
+    --gray_bg: #fafafa;
+    --gray_bg_second: #f1f1f1;
+    --accent: #8a40de;
+    --accent_scroll: #8a40de95;
+    --text: #212121;
+    --error: #db0808;
+    --gray: #d0d5dd;
+    --base-transition: 0.5s;
+    --dark_gray: #727272;
+    --shadow: #555555;
+    --pink: #c400ff;
+    --fade_bg: linear-gradient(164deg, var(--accent) 20%, var(--pink) 80%);
+    --blur: rgba(255, 255, 255, 0.192);
+    --border-accent: #bd86ff;
+}
+
+:root body:has(.dark) {
+    --bg: #212121;
+    --accent: #8a40de;
+    --accent_scroll: #ffffff95;
+    --text: #ffffff;
+    --dark_gray: #d0d5dd;
+    --gray: #727272;
+    --shadow: #b0b5bd;
+    --pink: #8802b1;
+    --fade_bg: linear-gradient(164deg, var(--accent) 20%, var(--pink) 80%);
+    --blur: rgba(100, 100, 100, 0.192);
+    --border-accent: #302f2f;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@phosphor-icons/vue": "^2.2.1",
+    "nuxt": "^3.13.2",
+    "nuxtjs-naive-ui": "^1.0.2",
+    "sass": "^1.77.8",
+    "scss": "^0.2.4",
+    "vfonts": "^0.0.3",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "naive-ui": "^2.39.0"
+  }
+}
